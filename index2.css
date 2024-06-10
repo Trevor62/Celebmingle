@@ -1,0 +1,196 @@
+.frame-child {
+  width: 330px;
+  height: 324px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+img {
+  width: 355px;
+  height: 210px;
+  position: absolute;
+  left: 10px;
+  box-shadow:2px 2px 5px rgba(0, 0, 0, 0.41);
+}
+.wrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 11px;
+}
+.vector-icon {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  z-index: 1;
+}
+.earth-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.earth-icon-child {
+  align-self: stretch;
+  height: 0.7px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.earth-icon1 {
+  height: 15.3px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini-6) 0 0;
+  box-sizing: border-box;
+}
+.faearth-icon {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.earth-icon2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.earth-icon-item {
+  align-self: stretch;
+  height: 0.7px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.earth-icon3 {
+  height: 15.3px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini-6) 0 0;
+  box-sizing: border-box;
+}
+.vector-icon1 {
+  height: 30px;
+  width: 37px;
+  position: relative;
+  z-index: 1;
+}
+.earth-icon-parent,
+.frame-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.earth-icon-parent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.frame-wrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 25px 0 26px;
+}
+.message-our-management {
+  position: relative;
+  z-index: 1;
+}
+.frame-item {
+  height: 24px;
+  width: 277px;
+  position: relative;
+  box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.41);
+  border-radius: var(--br-smi);
+  background-color: var(--color-forestgreen);
+  display: none;
+}
+.teammanagement631289gmailco {
+  position: relative;
+  font-weight: 700;
+  white-space: nowrap;
+  z-index: 2;
+}
+.rectangle-group {
+  flex: 1;
+  box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.41);
+  border-radius: var(--br-smi);
+  background-color: var(--color-forestgreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px var(--padding-xl) 5px;
+  z-index: 1;
+}
+.frame-container,
+.frame-parent,
+.message-our-management-to-star-parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-container {
+  flex-direction: row;
+  padding: 0 12px 0 13px;
+  color: var(--color-white);
+}
+.frame-parent,
+.message-our-management-to-star-parent {
+  flex-direction: column;
+  gap: 2px;
+}
+.frame-parent {
+  align-items: flex-end;
+  gap: 5px;
+}
+.iphone-13-mini-5,
+.rectangle-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent {
+  height: 324px;
+  flex: 1;
+  background-color: var(--color-gainsboro);
+  flex-direction: column;
+  padding: var(--padding-xl) 14px 7px;
+  box-sizing: border-box;
+  gap: 11px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-forestgreen);
+  font-family: var(--font-inter);
+}
+.iphone-13-mini-5 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+}

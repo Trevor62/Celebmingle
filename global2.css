@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-2xs: 11px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gainsboro: #d9d9d9;
+  --color-forestgreen: #248714;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-mini-6: 14.6px;
+  --padding-9xs-5: 3.5px;
+
+  /* Border radiuses */
+  --br-smi: 13px;
+}
